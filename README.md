@@ -10,3 +10,5 @@ camera move, object move, rotation, scale
 ### 0211 23:36
 tools, f key = focus, alt drag = oribit rotate
 
+### 0211 23:53
+level blue print, show fps

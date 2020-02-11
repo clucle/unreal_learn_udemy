@@ -7,3 +7,6 @@ learn unreal engine with course
 ### 0209 17:18
 camera move, object move, rotation, scale
 
+### 0211 23:36
+tools, f key = focus, alt drag = oribit rotate
+

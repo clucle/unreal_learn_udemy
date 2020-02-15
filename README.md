@@ -12,3 +12,13 @@ tools, f key = focus, alt drag = oribit rotate
 
 ### 0211 23:53
 level blue print, show fps
+
+### 0215 11:52
+mobility - 빛이나 그림자를 안움직이면 static하게 생성
+
+bluprint class
+
+- function : move around or change
+
+- events
+

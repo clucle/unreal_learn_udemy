@@ -45,3 +45,11 @@ Reflection : ability of a program to examine itself at runtime
 garbage collection : SPECIAL_MACRO() code will be placed at compile time
 
 UCLASS, UPROPERTY, UFUNCTION : *next time*
+
+### 0216 16:55
+
+c++ 코드 기반 Blueprint 만들기
+
+### 0216 18:55
+
+c++ 코드 기반 Object 을 Blueprint 로 가져와서 get,set var, call func 할 수 있게 만듬

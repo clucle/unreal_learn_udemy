@@ -22,3 +22,14 @@ bluprint class
 
 - events
 
+### 0216 12:58
+
+Unreal Engine Hierarchy
+
+- Object : store data, cannot be placed in the level
+
+- Actor : can be placed in the level, can have a visual representation
+
+- Pawn : can be passessed by a controller
+
+- Character : have a character movemetn component, have functionality appropritae for a character

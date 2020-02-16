@@ -37,3 +37,11 @@ Unreal Engine Hierarchy
 Is a Relationships : Parent, Child, Grandchild
 
 Has a Relationships : Package > Level > Actor > Actor Components
+
+### 0216 15:24
+
+Reflection : ability of a program to examine itself at runtime
+
+garbage collection : SPECIAL_MACRO() code will be placed at compile time
+
+UCLASS, UPROPERTY, UFUNCTION : *next time*

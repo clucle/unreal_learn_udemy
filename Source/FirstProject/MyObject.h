@@ -17,10 +17,10 @@ public:
 
 	UMyObject();
 
-	UPROPERTY(BlueprintReadWrite)
+	UPROPERTY(BlueprintReadOnly, Category = "MyVariables")
 		float MyFloat;
 
-	UFUNCTION(BlueprintCallable)
+	UFUNCTION(BlueprintCallable, Category = "MyFunctions")
 		void MyFunction();
 
 };

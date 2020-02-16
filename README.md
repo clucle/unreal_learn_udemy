@@ -33,3 +33,7 @@ Unreal Engine Hierarchy
 - Pawn : can be passessed by a controller
 
 - Character : have a character movemetn component, have functionality appropritae for a character
+
+Is a Relationships : Parent, Child, Grandchild
+
+Has a Relationships : Package > Level > Actor > Actor Components

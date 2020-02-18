@@ -53,3 +53,9 @@ c++ 코드 기반 Blueprint 만들기
 ### 0216 18:55
 
 c++ 코드 기반 Object 을 Blueprint 로 가져와서 get,set var, call func 할 수 있게 만듬
+
+### 0218 11:50
+
+c++ creat a actor class in C++ and created a blueprint from that actor class.
+
+static meshes can't be vertex animated, as they can be moved, scaled, or reskinned in realtime.

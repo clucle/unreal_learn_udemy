@@ -63,3 +63,13 @@ static meshes can't be vertex animated, as they can be moved, scaled, or reskinn
 ### 0222 19:51
 
 change mesh color, position vector
+
+### 0223 00:28
+
+SetActorLocation, FVector
+
+EditInstanceOnly : Blueprint 하나하나당 에서만 설정
+
+EditDefaultsOnly : 전체 다 설정하는 Defaults 에서만 설정
+
+VisibleInstanceOnly : 실제 생성된 Instance에서만 설정

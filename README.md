@@ -59,3 +59,7 @@ c++ 코드 기반 Object 을 Blueprint 로 가져와서 get,set var, call func �
 c++ creat a actor class in C++ and created a blueprint from that actor class.
 
 static meshes can't be vertex animated, as they can be moved, scaled, or reskinned in realtime.
+
+### 0222 19:51
+
+change mesh color, position vector

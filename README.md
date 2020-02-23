@@ -81,3 +81,11 @@ EditAnywhere : Default 에서 설정하면 실제 world 초깃값으로 설정, 
 ### 0223 18:11
 
 다른 물체랑 충돌
+
+### 0223 20:09
+
+true : collision 꺼져있어도 체크, false : collision 꺼져있으면 통과
+
+AddActorLocalOffset(InitialDirection, true, &HitResult);
+
+sweep : 움직임제 제한, 벽에 닿았을 시 바로 멈추게함

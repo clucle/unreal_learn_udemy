@@ -73,3 +73,7 @@ EditInstanceOnly : Blueprint 하나하나당 에서만 설정
 EditDefaultsOnly : 전체 다 설정하는 Defaults 에서만 설정
 
 VisibleInstanceOnly : 실제 생성된 Instance에서만 설정
+
+### 0223 15:47
+
+EditAnywhere : Default 에서 설정하면 실제 world 초깃값으로 설정, instance에서 수정 가능

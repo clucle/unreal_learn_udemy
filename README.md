@@ -77,3 +77,7 @@ VisibleInstanceOnly : 실제 생성된 Instance에서만 설정
 ### 0223 15:47
 
 EditAnywhere : Default 에서 설정하면 실제 world 초깃값으로 설정, instance에서 수정 가능
+
+### 0223 18:11
+
+다른 물체랑 충돌

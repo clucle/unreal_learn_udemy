@@ -89,3 +89,29 @@ true : collision 꺼져있어도 체크, false : collision 꺼져있으면 통�
 AddActorLocalOffset(InitialDirection, true, &HitResult);
 
 sweep : 움직임제 제한, 벽에 닿았을 시 바로 멈추게함
+
+### 0225 11:03
+
+Coding Standard Prefix
+
+[link](https://docs.unrealengine.com/en-US/Programming/Development/CodingStandard/index.html)
+
+Template classes are prefixed by T.
+
+Classes that inherit from UObject are prefixed by U.
+
+Classes that inherit from AActor are prefixed by A.
+
+Classes that inherit from SWidget are prefixed by S.
+
+Classes that are abstract interfaces are prefixed by I.
+
+Enums are prefixed by E.
+
+Boolean variables must be prefixed by b (for example, bPendingDestruction, or bHasFadedIn).
+
+Most other classes are prefixed by F, though some subsystems use other letters.
+
+Typedefs should be prefixed by whatever is appropriate for that type: F if it's a typedef of a struct, U if it's a typedef of a UObject and so on.
+
+A typedef of a particular template instantiation is no longer a template, and should be prefixed accordingly, for example:

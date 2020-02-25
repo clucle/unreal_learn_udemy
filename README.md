@@ -115,3 +115,9 @@ Most other classes are prefixed by F, though some subsystems use other letters.
 Typedefs should be prefixed by whatever is appropriate for that type: F if it's a typedef of a struct, U if it's a typedef of a UObject and so on.
 
 A typedef of a particular template instantiation is no longer a template, and should be prefixed accordingly, for example:
+
+### 0205 11:15
+
+Local vs World Offset, Rotation
+
+pitch yaw roll

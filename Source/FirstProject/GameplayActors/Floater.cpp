@@ -32,6 +32,12 @@ void AFloater::BeginPlay()
 	{
 		SetActorLocation(InitialLocation);
 	}
+
+	FHitResult HitResult;
+	FVector LocalOffset = FVector(200.0f, 0.0f, 0.0f);
+
+	// AddActorLocalOffset(LocalOffset, true, &HitResult);
+	// AddActorWorldOffset(LocalOffset, true, &HitResult);
 }
 
 // Called every frame
@@ -47,5 +53,9 @@ void AFloater::Tick(float DeltaTime)
 		FVector HitLocation = HitResult.Location;
 
 	}
+
+	FRotator Rotation = FRotator(0.0f, 1.0f, 0.0f);
+
+	AddActorLocalRotation(Rotation);
 }
 

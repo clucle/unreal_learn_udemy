@@ -2,6 +2,13 @@
 
 #pragma once
 
+#include "Engine.h"
+#include "Networking.h"
+#include "Networking/Public/Interfaces/IPv4/IPv4Address.h"
+
+#include "Sockets.h"
+#include "SocketSubsystem.h"
+
 #include "CoreMinimal.h"
 #include "UObject/NoExportTypes.h"
 #include "MySocketObject.generated.h"
@@ -17,15 +24,14 @@ class FIRSTPROJECT_API UMySocketObject : public UObject
 public:
 	UMySocketObject() {};
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "UMySocketObject")
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "UMySOCKETOBJECT")
 	FString message;
 
 	UFUNCTION(BlueprintCallable, Category = "UMySocketObject")
 	void SetMessage(FString msg);
 
-	UFUNCTION(BlueprintCallable, Category = UMySocketObject)
-	void ConnectToServer();
+	UFUNCTION(BlueprintCallable, Category = Socket)
+	bool ConnectToServer();
 
-private:
-	// FSocket* Socket;
+	FSocket* Socket;
 };
